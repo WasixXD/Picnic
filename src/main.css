@@ -1,0 +1,666 @@
+:root {
+    --light-red: #f99791;
+    --darker-red: #f77d75;
+
+    --light-orange: #fbbc5e;
+    --darker-orange: #faab36;
+
+    --light-yellow:#fdfdac;
+    --darker-yellow: #fdfd97;
+
+    --light-blue: #95cde8;
+    --darker-blue: #76c1eb; 
+
+    --light-purple: #F5E1FD;
+    --darker-purple: #B399D4;
+
+    --light-green: #bbef94;
+    --darker-green: #54b36a;
+
+    --white: rgb(255, 255, 255);
+    --black: rgb(17, 17, 17);
+    --ice: #E8E8E8;
+    --graf: #363634;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: local('./fonts/Poppins-Regular.ttf');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+    font-family: "Poppins";
+    color: var(--graf);
+    
+
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+
+button {
+    background-color: none;
+    border: none;
+}
+
+/* BG COLORS */
+.lred {
+    background-color: var(--light-red);
+}
+.dred {
+    background-color: var(--darker-red);
+}
+
+.lorange {
+    background-color: var(--light-orange);
+}
+
+.dorange {
+    background-color: var(--darker-orange);
+}
+
+.lyellow {
+    background-color: var(--light-yellow);
+}
+
+.dyellow {
+    background-color: var(--darker-yellow);
+}
+
+.lpurple {
+    background-color: var(--light-purple);
+}
+
+.dpurple {
+    background-color: var(--darker-purple);
+}
+
+.lblue {
+    background-color: var(--light-blue);
+}
+
+.dblue {
+    background-color: var(--darker-blue);
+}
+
+.lgreen {
+    background-color: var(--light-green);
+}
+
+.dgreen {
+    background-color: var(--darker-green);
+}
+
+
+.white {
+    background-color: var(--white);
+}
+
+.black {
+    background-color: var(--black);
+}
+
+
+.ice {
+    background-color: var(--ice);
+}
+
+.graf {
+    background-color: var(--graf);
+}
+
+/* DIVS */
+.rounded {
+    border-radius: 0.25rem;
+}
+
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container-sm {
+    max-width: 640px;
+    height: auto;
+
+}
+
+.container-md {
+    max-width: 768px;
+    height: auto;
+
+}
+
+.container-lg {
+    max-width: 1024px;
+    height: auto;
+
+}
+
+.container-xl {
+    height: auto;
+    max-width: 1280px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+
+.justify-center {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* Spacing */
+
+.p-0 {
+    padding: 0;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.p-12 {
+    padding: 3rem;
+}
+
+.p-16 {
+    padding: 4rem;
+}
+
+.py-0 {
+    padding: 0;
+}
+
+.py-4 {
+    padding: 1rem 0 1rem 0;
+}
+
+.py-8 {
+    padding: 2rem 0 2rem 0;
+}
+
+.py-12 {
+    padding: 3rem 0 3rem 0;
+}
+
+.py-16 {
+    padding: 4rem 0 4rem 0;
+}
+
+
+.px-0 {
+    padding: 0;
+}
+
+.px-4 {
+    padding: 0 1rem 0 1rem;
+}
+
+.px-8 {
+    padding: 0 2rem 0 2rem;
+}
+
+.px-12 {
+    padding: 0 3rem 0 3rem;
+}
+
+.px-16 {
+    padding: 0 4rem 0 4rem;
+}
+
+
+
+
+.m-0 {
+    margin: 0;
+}
+
+.m-4 {
+    margin: 1rem;
+}
+
+.m-8 {
+    margin: 2rem;
+}
+
+.m-12 {
+    margin: 3rem;
+}
+
+.m-16 {
+    margin: 4rem;
+}
+
+
+.my-0 {
+    margin: 0;
+}
+
+.my-4 {
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.my-8 {
+    margin: 2rem 0 2rem 0;
+}
+
+.my-12 {
+    margin: 3rem 0 3rem 0;
+}
+
+.my-16 {
+    margin: 4rem 0 4rem 0;
+}
+
+
+.mx-0 {
+    margin: 0;
+}
+
+.mx-4 {
+    margin: 0 1rem 0 1rem;
+}
+
+.mx-8 {
+    margin: 0 2rem 0 2rem;
+}
+
+.mx-12 {
+    margin: 0 3rem 0 3rem;
+}
+
+.mx-16 {
+    margin: 0 4rem 0 4rem;
+}
+
+
+
+
+
+
+
+w-0 {
+    width: 0;
+}
+
+
+w-10 {
+    width: 10%;
+}
+
+
+w-20 {
+    width: 20%;
+}
+
+
+w-30 {
+    width: 30%;
+}
+
+
+w-40 {
+    width: 40%;
+}
+
+
+w-50 {
+    width: 50%;
+}
+
+
+w-60 {
+    width: 60%;
+}
+
+
+w-70 {
+    width: 70%;
+}
+
+
+w-80 {
+    width: 80%;
+}
+
+w-90 {
+    width: 90%;
+}
+
+
+w-100 {
+    width: 100%;
+}
+
+
+h-0 {
+    height: 0;
+}
+
+
+h-10 {
+    height: 10%;
+}
+
+
+h-20 {
+    height: 20%;
+}
+
+
+h-30 {
+    height: 30%;
+}
+
+
+h-40 {
+    height: 40%;
+}
+
+
+h-50 {
+    height: 50%;
+}
+
+
+h-60 {
+    height: 60%;
+}
+
+
+h-70 {
+    height: 70%;
+}
+
+
+h-80 {
+    height: 80%;
+}
+
+h-90 {
+    height: 90%;
+}
+
+
+h-100 {
+    height: 100%;
+}
+
+/* FONTS */
+
+
+.text-white {
+    color: var(--white);
+}
+
+.text-ice {
+    color: var(--ice);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-graf {
+    color: var(--graf);
+}
+
+.text-lred {
+    color: var(--light-red)
+}
+
+.text-dred {
+    color: var(--darker-red);
+}
+
+.text-lblue {
+    color: var(--light-blue)
+}
+
+.text-dblue {
+    color: var(--darker-blue);
+}
+
+.text-lyellow {
+    color: var(--light-yellow)
+}
+
+.text-dyellow {
+    color: var(--darker-yellow);
+}
+
+.text-lgreen {
+    color: var(--light-green)
+}
+
+.text-dgreen {
+    color: var(--darker-green);
+}
+
+.text-lorange {
+    color: var(--light-orange)
+}
+
+.text-dorange {
+    color: var(--darker-orange);
+}
+
+.text-lpurple {
+    color: var(--light-purple)
+}
+
+.text-dpurple {
+    color: var(--darker-purple);
+}
+
+
+.text-light {
+    font-weight: 275;
+}
+
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.text-8xl {
+    font-size: 8rem;
+    line-height: 1;
+}
+
+
+
+.btn-green {
+    background-color: var(--light-green);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.btn-green:hover {
+    transition: 0.7s;
+    background-color: var(--darker-green);
+}
+
+
+.btn-red {
+    background-color: var(--light-red);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.btn-red:hover {
+    transition: 0.7s;
+    background-color: var(--darker-red);
+}
+
+.btn-blue {
+    background-color: var(--light-blue);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.btn-blue:hover {
+    transition: 0.7s;
+    background-color: var(--darker-blue);
+}
+
+
+.btn-yellow {
+    background-color: var(--light-yellow);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.btn-yellow:hover {
+    transition: 0.7s;
+    background-color: var(--darker-yellow);
+}
+
+
+.btn-purple {
+    background-color: var(--light-purple);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.btn-purple:hover {
+    transition: 0.7s;
+    background-color: var(--darker-purple);
+}
+
+
+.btn-orange {
+    background-color: var(--light-orange);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.btn-orange:hover {
+    transition: 0.7s;
+    background-color: var(--darker-orange);
+}
+
