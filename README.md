@@ -13,7 +13,7 @@ Now in college saga i dont want to be rewriting html/css all over again. Then i 
 [ x ] Have some pre made components and highly customizable
 
 # How to use? 💼
-Dowload the `src` folder and your `html` files create a link tag to `src/main.css` \
+Dowload the `src` folder and in your `html` files create a link tag to `src/main.css` \
 Check the [documentation](https://wasixxd.github.io/Picnic/index.html)
 
 
